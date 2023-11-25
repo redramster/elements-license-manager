@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html  data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Seller Dashboard</h2>
+        
+    </div>
+    <hr>
+        <div class="container mt-5">
+            <h2>Generate Codes for Buyer</h2>
+            <div class="form-group">
+                <label for="dataInput">Buyer Channel ID:</label>
+                <input type="text" class="form-control" id="dataInput" placeholder="Enter data here">
+                    </div>
+                    <button class="btn btn-primary mt-4" onclick="encryptData()">Encrypt Data</button><br/>
+                    <hr>
+                    <label class="mt-4" for="privateKey">License Key 1:</label>
+                    <textarea  class="form-control" id="encryptedOutput"></textarea>
+                    <label class="mt-4" for="privateKey">License Key 2:</label>
+                    <textarea class="form-control" id="privateKey"></textarea>
+                     <hr>
+                        <label class="mt-4" for="publicKey">Public Key (do not send!!!):</label>
+                        <textarea  class="form-control"  id="publicKey"></textarea>
+                   </div>
+           
+        </div>
+
+
+    <!-- Bootstrap and JQuery -->
+
+
+    <!-- Your custom JavaScript for encryption and hashing -->
+    <script src="./license-manager.js"></script>
+</body>
+</html>
