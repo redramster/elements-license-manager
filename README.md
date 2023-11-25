@@ -1,4 +1,4 @@
-# elements-license-manager
+# Elements - License Manager
 Managing license for StreamElements Elements system
 
 1. ask for your buyer to supply a channel name
